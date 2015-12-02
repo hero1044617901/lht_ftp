@@ -8,3 +8,8 @@ D:\Project\lht_ftp\OperationIni\bin\Debug\OperationIni.pdb
 D:\Project\lht_ftp\OperationIni\obj\Debug\ResolveAssemblyReference.cache
 D:\Project\lht_ftp\OperationIni\obj\Debug\OperationIni.dll
 D:\Project\lht_ftp\OperationIni\obj\Debug\OperationIni.pdb
+E:\My Project\lht_ftp\OperationIni\bin\Debug\OperationIni.dll
+E:\My Project\lht_ftp\OperationIni\bin\Debug\OperationIni.pdb
+E:\My Project\lht_ftp\OperationIni\obj\Debug\ResolveAssemblyReference.cache
+E:\My Project\lht_ftp\OperationIni\obj\Debug\OperationIni.dll
+E:\My Project\lht_ftp\OperationIni\obj\Debug\OperationIni.pdb
