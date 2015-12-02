@@ -16,11 +16,25 @@ namespace FTPControl
         private string ftpHost, ftpUserName, ftpPassword;
         public string BDFolderName = "";
         #region 自定义事件
+        [Browsable(true)]
+        [Category("自定义")]
         public delegate void BeforPostEventHandler(object sender, Operation operation);
         public event BeforPostEventHandler OnBeforPostEvent;
 
+        [Browsable(true)]
+        [Category("自定义")]
         public delegate void FinishedPostEventHandler(object sender, Operation operation);
         public event FinishedPostEventHandler OnFinishedPostEvent;
+
+        [Browsable(true)]
+        [Category("自定义")]
+        public delegate void DownEventHandler(object sender, Operation operation);
+        public event DownEventHandler OnDownEvent;
+
+        [Browsable(true)]
+        [Category("自定义")]
+        public delegate void UploadEventHandler(object sender, Operation operation);
+        public event UploadEventHandler OnUploadEvent;
         #endregion
         public FTPControl()
         {
