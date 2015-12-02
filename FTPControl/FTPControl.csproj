@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D8C5E0C7-E1CD-4108-9A21-37D0366BC87C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FTPControl</RootNamespace>
+    <AssemblyName>FTPControl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="FileStruct.cs" />
+    <Compile Include="FTPControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FTPControl.Designer.cs">
+      <DependentUpon>FTPControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder.Designer.cs">
+      <DependentUpon>NewFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FTPControl.resx">
+      <DependentUpon>FTPControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder.resx">
+      <DependentUpon>NewFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ftp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打开.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\复制.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\剪切.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\清空.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\全选.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\删除.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上传.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\下载.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新建.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\粘贴.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\重命名.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\发布.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

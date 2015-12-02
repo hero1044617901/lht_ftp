@@ -1,0 +1,5 @@
+J:\Visual Studio 2010\Sanmeng\OperationIni\bin\Release\OperationIni.dll
+J:\Visual Studio 2010\Sanmeng\OperationIni\bin\Release\OperationIni.pdb
+J:\Visual Studio 2010\Sanmeng\OperationIni\obj\Release\ResolveAssemblyReference.cache
+J:\Visual Studio 2010\Sanmeng\OperationIni\obj\Release\OperationIni.dll
+J:\Visual Studio 2010\Sanmeng\OperationIni\obj\Release\OperationIni.pdb

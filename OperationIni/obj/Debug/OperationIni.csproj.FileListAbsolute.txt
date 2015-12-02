@@ -1,0 +1,10 @@
+D:\code\Visual Studio 2010\Sanmeng\OperationIni\bin\Debug\OperationIni.dll
+D:\code\Visual Studio 2010\Sanmeng\OperationIni\bin\Debug\OperationIni.pdb
+D:\code\Visual Studio 2010\Sanmeng\OperationIni\obj\Debug\ResolveAssemblyReference.cache
+D:\code\Visual Studio 2010\Sanmeng\OperationIni\obj\Debug\OperationIni.dll
+D:\code\Visual Studio 2010\Sanmeng\OperationIni\obj\Debug\OperationIni.pdb
+D:\Project\lht_ftp\OperationIni\bin\Debug\OperationIni.dll
+D:\Project\lht_ftp\OperationIni\bin\Debug\OperationIni.pdb
+D:\Project\lht_ftp\OperationIni\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\lht_ftp\OperationIni\obj\Debug\OperationIni.dll
+D:\Project\lht_ftp\OperationIni\obj\Debug\OperationIni.pdb
